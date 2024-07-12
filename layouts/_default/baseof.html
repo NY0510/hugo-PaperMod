@@ -5,7 +5,7 @@
     {{- partial "head.html" . }}
 </head>
 
-<body class="
+<body class="dark 
 {{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
 {{- print "list" -}}
 {{- end -}}
